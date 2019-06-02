@@ -9,3 +9,14 @@ La estructura general de la aplicación se compone de **cuatro clases**, cada un
 - `Inventario`: **Almacenamiento** de refrescos.
 - `Refresco`: Representación de **refresco**.
 - `Cambio`: Gestión de **cambio** (almacenamiento del cambio disponible y devolución de monedas).
+
+## Propuestas de mejoras
+La solución propuesta no pretende ser una implementación óptima de una simulación de máquina de refrescos, si no un ejemplo. Hay gran cantidad de mejoras y ampliaciones que se podrían añadirse. 
+
+Algunas ideas:
+- Soporte a otros formatos numéricos.
+- Mayor **interacción con el usuario** (permitir cancelar la compra, mostrar el inventario de nuevo...)
+- Mayor funcionalidad del **inventario** (reposición de refrescos, cambio de precio, cambio de nombre, control de duplicados...)
+- Uso de monedas de todos los tipos (2 céntimos, 5 céntimos, 20 céntimos, 2 euros...)
+- Unificación de los métodos `devolver100` , `devolver50` y `devolver1` en un **método genérico** parametrizado.
+- **Inicialización dinámica** del inventario y el cambio al inicio de la aplicación y/o durante la ejecución.
